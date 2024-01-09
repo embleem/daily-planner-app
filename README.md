@@ -4,10 +4,9 @@
 This project is a fully functional Daily Planner App that empowers users to efficiently manage their busy schedules. It seamlessly combines advanced JavaScript, DOM manipulation, and the Day.js library to provide a smooth and intuitive experience. The app boasts dynamically updated HTML and CSS, all powered by jQuery.
 
 ## Getting Started
-The application has already been created and deployed. You can access it by visiting [https://embleem.github.io/daily-planner-app/](#). For a deeper understanding, you may also review the codebase by downloading the code.
+The application has already been created and deployed. You can access it by visiting [https://embleem.github.io/daily-planner-app/](#) or alternatively download the code to edit.
 
-## User Story
-As an employee with a hectic schedule, the Daily Planner App allows users to add essential events, ensuring effective time management.
+![Daily Planner App Screenshot](assets/images/FrontPage.png)
 
 ## Features
 1. **Current Day Display:**
@@ -28,14 +27,6 @@ As an employee with a hectic schedule, the Daily Planner App allows users to add
 6. **Persistent Events:**
    - Events persist between page refreshes, ensuring data continuity.
 
-## How to Use
-1. Simply visit [the live deployment link](#) in your browser.
-2. The current day is prominently displayed at the top of the calendar.
-3. Scroll down to view and interact with timeblocks representing standard business hours.
-4. Click on a timeblock to input an event.
-5. Save your event by clicking the dedicated save button.
-6. Your events will persist even if you refresh the page.
-
 ## Technologies Used
 - HTML
 - CSS
@@ -43,65 +34,85 @@ As an employee with a hectic schedule, the Daily Planner App allows users to add
 - jQuery
 - [Day.js](https://day.js.org)
 
+## How to Download and Use the Code
+### Prerequisites
+1. Ensure that you have a code editor installed on your machine, such as [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/).
+
+### Steps
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/embleem/daily-planner-app.git
+    ```
+2. **Navigate to the Project Directory:**
+    ```bash
+    cd daily-planner-app
+    ```
+3. **Open in Code Editor:**
+    ```bash
+    code .
+    ```
+    This command opens Visual Studio Code. If you're using a different code editor, replace `code` with the appropriate command.
+4. **Explore the Code:**
+   - Familiarize yourself with the project structure, including HTML, CSS, and JavaScript files.
+5. **Run the App:**
+    - Open the `index.html` file in your browser to use the Daily Planner App locally.
+
+### Notes
+- Make sure you have an internet connection when opening the app in your browser, as it may rely on external libraries or APIs.
+- If there are any dependencies, follow the instructions in the README or documentation.
+
+Now you have the Daily Planner App code on your machine and can explore, modify, or use it for your own purposes!
+
 ## Project Structure
 - **index.html:** Main HTML file for the application.
 - **style.css:** Stylesheet for the application.
 - **script.js:** JavaScript file containing the logic for the Daily Planner App.
 
-## Acknowledgments
-- [Day.js](https://day.js.org) - A fast, immutable, and internationalizing date library.
+![File Structure](assets/images/FileStructure.png)
+
+## How to Use the Application
+1. Simply visit [https://embleem.github.io/daily-planner-app/](#) in your browser.
+2. The current day is prominently displayed at the top of the calendar.
+3. Scroll down to view and interact with timeblocks representing standard business hours.
+4. Click on a timeblock to input an event.
+5. Save your event by clicking the dedicated save button.
+6. Your events will persist even if you refresh the page.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
 ## Authors
-- Your Name
-- Collaborator's Name (if any)
-
-Feel free to explore and interact with the live deployment, and don't hesitate to contribute to further enhance the project!
-
-
+- Emma Blencowe
+- https://github.com/embleem
 
 ## Libraries Used
-
 1. Bootstrap:
 https://getbootstrap.com/
-
 2. JQuery:
 https://jquery.com/
-
 3. JavaScript Day.js:
 https://day.js.org/docs/en/display/format
+4. Day.js:
+https://day.js.org
 
 ## References/Research
-
 1. CSS grids:
 https://www.w3schools.com/css/css_grid.asp
-
 2. Scheduler Example with code:
 https://codesandbox.io/p/sandbox/work-day-scheduler-zozvj?file=%2Fsrc%2Findex.js
-
 3. Youtube Tutorial on similar scheduler project works:
 https://www.youtube.com/watch?v=sm6py49QNto
-
 4. Bootstrap Grids information:
 https://getbootstrap.com/docs/5.3/layout/grid/
-
 5. Bootstrap Scheduler Examples:
 https://demos.devexpress.com/Bootstrap/Scheduler/ViewTypes.aspx
-
 6. JavaScript Date() Constructor - 
 https://www.w3schools.com/jsref/jsref_constructor_date.asp
-
 7. JavaScript getDay() Method - 
 https://www.w3schools.com/jsref/jsref_getday.asp
-
 8. Notes on Bootstrap:
 https://medium.com/@urchykli/nested-grids-using-bootstrap-8673b6bd7ec3
 
-
 ## Acknowledgements
-
 1. Thank you to ThomasCalle (www.github/ThomasCalle) for sharing a youtube tutorial on how the scheuler works.
-
 2. Thank you to Rockey Willemse for the support and help with code when I got stuck!
